@@ -1,0 +1,57 @@
+{
+  "Customer" : 
+  {
+    "UserName" : "rupesh",
+    "Email" : "rupesh.sharma@csscorp.com",
+    "CustomerCompanyName":"CSS Corp Private Limited",
+    "CustomerId":"6002323drt99"
+    
+  },
+  "Subcriptions" : 
+  
+    [
+      { "SubcriptionId" : "886767", "ExpiryDate" : "\"2014-01-01T23:28:56.782Z\"" }, 
+      { "SubcriptionId" : "806767", "ExpiryDate" : "\"2014-01-01T23:28:56.782Z\"" }
+  
+    ],
+  
+  "SummarizedCount" : "32",
+  "NumberOfSites" : "21",
+  
+  
+  "ProductModelPerSoftwareVersion" :
+    
+    [
+      {"SoftwareVersion" :"6.5.1" , "SiteName" : "Colorado", "APModel":"IAP-334 x 10, IAP-335 x 30, IAP-207 x 20"},
+      {"SoftwareVersion" :"6.2.1" , "SiteName" : "Tokyo", "APModel":"IAP-334 x 10, IAP-335 x 30, IAP-207 x 20"},
+      {"SoftwareVersion" :"6.4.1" , "SiteName" : "Tokyo", "APModel":"IAP-324 x 5, IAP-325 x 5"}
+    
+    ],
+          
+  "AssignedDeviceSubcription":
+    [
+      { "AvailableDeviceSubscription" : "19937439", "SubcriptionId": "19937439" , "AssignedDeviceSubscription" : 
+                                      [
+                                        {"IAP": "58103", "Switches": "4458", "GatewayDevices": "0"},
+                                        {"IAP": "58663", "Switches": "4758", "GatewayDevices": "3"}
+                                      ]
+      
+      }, 
+      { "AvailableDeviceSubscription" : "1567439", "SubcriptionId": "19937439", "AssignedDeviceSubscription" : 
+                                      [
+                                        {"IAP": "58103", "Switches": "4458", "GatewayDevices": "0"},
+                                       {"IAP": "58663", "Switches": "4758", "GatewayDevices": "3"}
+                                      ]
+      
+      }
+    ] ,
+    
+    "NoOfAvailableDeviceSubcription" : "56",
+    
+    "NoOfWiredOrWirelessUsers" :
+      [
+          {"TotalClients" :"494256" , "WirelessClients" : "272299", "WiredClients":"221957"},
+          {"TotalClients" :"494256" , "WirelessClients" : "272299", "WiredClients":"221957"},
+          {"TotalClients" :"494256" , "WirelessClients" : "272299", "WiredClients":"221957"}
+      ]           
+}
